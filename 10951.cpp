@@ -5,15 +5,10 @@ using namespace std;
 int main(void){
     int n;
     list<int> ntc;
-    for (int i = 0; i < 10; i++)
-    {
-        cin >> n;
+    
+    while (cin >> n){
         ntc.push_back(n);
     }
-    
-    // while (cin >> n){
-    //     ntc.push_back(n);
-    // }
     
     list<int>::iterator iter = ntc.begin();
     
